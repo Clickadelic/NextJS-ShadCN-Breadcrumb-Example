@@ -21,7 +21,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<Header />
-				<div className="container my-24">
+				<div className="container my-24 rounded-sm bg-slate-50 p-3">
 					<BreadcrumbNav />
 				</div>
 				<main className="container mx-auto">{children}</main>

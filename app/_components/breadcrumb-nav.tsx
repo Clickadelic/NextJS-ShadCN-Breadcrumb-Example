@@ -8,7 +8,7 @@ const BreadcrumbNav = () => {
 	const paths = usePathname();
 	const pathNames = paths.split("/").filter(path => path);
 	return (
-		<Breadcrumb className="mb-4">
+		<Breadcrumb>
 			<BreadcrumbList>
 				<BreadcrumbItem>
 					<BreadcrumbLink href="/">
